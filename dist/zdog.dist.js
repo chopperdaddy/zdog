@@ -432,6 +432,7 @@ Anchor.prototype.create = function( options ) {
 Anchor.defaults = {};
 
 Anchor.optionKeys = Object.keys( Anchor.defaults ).concat([
+  'id',
   'rotate',
   'translate',
   'scale',
